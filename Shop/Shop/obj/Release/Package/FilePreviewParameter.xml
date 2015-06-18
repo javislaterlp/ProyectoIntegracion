@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="javierhogshop" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\javier\\Documents\\Visual\ Studio\ 2013\\Projects\\Clase\\Shop\\Shop\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\javier\\Documents\\Visual\ Studio\ 2013\\Projects\\Clase\\Shop\\Shop\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-Shop;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\javier\\Documents\\Visual\ Studio\ 2013\\Projects\\Clase\\Shop\\Shop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Shop-Web.config Connection String" description="" value="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\shop.mdf;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\javier\\Documents\\Visual\ Studio\ 2013\\Projects\\Clase\\Shop\\Shop\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Shop']/@connectionString" />
+  </parameter>
+</parameters>
